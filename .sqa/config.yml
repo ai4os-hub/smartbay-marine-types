@@ -1,0 +1,15 @@
+# .sqa/config.yml - jenkins-pipeline-library configuration file
+sqa_criteria:
+  qc_style:
+    repos:
+      smartbay-marine-types:
+        container: thisrepo-testing
+        commands:
+          - echo "[Check that Dockerfile and JenkinsConstants.groovy exist"]
+          - test -e Dockerfile
+          - test -e JenkinsConstants.groovy
+
+environment:
+  LANG: C.UTF-8
+
+timeout: 600
