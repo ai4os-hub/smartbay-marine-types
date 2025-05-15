@@ -1,0 +1,37 @@
+{
+    "title": "smartbay-marine-types",
+    "summary": "AI-based Marine animal types detection and classification algorithm based on YOLOv8. The model has been tuned to detect and classify marine animal types at the Smartbay underwater observatory",
+    "description": [
+        "smartbay-marine-types is an application using the DEEPaaS API.\n",
+        "AI-based Marine animal types detection and classification algorithm based on YOLOv8. The model has been tuned to detect and classify marine animal types at the Smartbay underwater observatory"
+    ],
+    "keywords": [
+        "docker",
+        "api-v2"
+    ],
+    "license": "AGPL-3.0-only",
+    "date_creation": "2025-05-14",
+    "sources": {
+        "dockerfile_repo": "https://github.com/ai4os-hub/smartbay-marine-types",
+        "docker_registry_repo": "ai4oshub/smartbay-marine-types",
+        "code": "https://github.com/ai4os-hub/smartbay-marine-types",
+        "ai4_template": "ai4-template-child/2.1.1"
+	},
+    "continuous_integration": {
+        "build_status_badge": "https://jenkins.services.ai4os.eu/buildStatus/icon?job=AI4OS-hub/smartbay-marine-types/main",
+        "build_status_url": "https://jenkins.services.ai4os.eu/job/AI4OS-hub/job/smartbay-marine-types/job/main/"
+    },
+    "tosca": [
+        {
+            "title": "Mesos (CPU)",
+            "url": "https://raw.githubusercontent.com/indigo-dc/tosca-templates/master/deep-oc/deep-oc-marathon-webdav.yml",
+            "inputs": [
+                "rclone_conf",
+                "rclone_url",
+                "rclone_vendor",
+                "rclone_user",
+                "rclone_pass"
+            ]
+        }
+    ]
+}
