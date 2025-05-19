@@ -2,24 +2,22 @@ metadata_version: 2.0.0
 title: smartbay-marine-types
 summary: "AI-based Marine animal types detection and classification algorithm based on YOLOv8. The model has been tuned to detect and classify marine animal types at the Smartbay underwater observatory"
 description: |-
-   AI-based Marine Species detection and classification algorithm based on YOLOv8. 
-  
+  AI-based Marine Species detection and classification algorithm based on YOLOv8.
+
   The SmartBay Observatory is a marine observatory installed on the seafloor 1.5km off the coast of Spiddal, County Galway, Ireland. The observatory uses cameras, probes and sensors to permit continuous and remote live underwater monitoring. This observatory equipment allows ocean researchers unique real-time access to monitor ongoing changes in the marine environment. Data relating to the marine environment at the site is transferred in real-time from the SmartBay Observatory through a fibre optic telecommunications cable to the Marine Institute headquarters and onwards onto the internet. The data includes a live video stream, the depth of the observatory node, the sea temperature and salinity, and estimates of the chlorophyll and turbidity levels in the water which give an indication of the volume of phytoplankton and other particles, such as sediment, in the water.
-  
+
   The Smartbay Marine Types Object Detection training Dataset is an initial Bounding Box Annotated image dataset used in attempting to Train a YOLOv8 Object Detection Model to classify the Marine Fauna observed in the Smartbay Observatory Video footage using broad "Marine Type" classes.
-  
+
   The imagery used to train the models in this module consists of image frame captures from the [Smartbay](https://smartbay.marine.ie/) video Archive files, CC-BY imagery from the www.minka-sdg.org website and images taken by Eva Cullen in the ["Galway Atlantaquaria"](https://nationalaquarium.ie/) Aquarium in Galway, Ireland.
 
-  The module will eventually contain a generic marine animal object detection model using the 
-
-  [Smartbay Marine Types Object Detection Training dataset](https://doi.org/10.5281/zenodo.13989527)
-  Dataset
+  The module will eventually contain a generic marine animal object detection model using the [Smartbay Marine Types Object Detection Training dataset](https://doi.org/10.5281/zenodo.13989527) Dataset
 
   <img class='fit', src='https://raw.githubusercontent.com/ai4os-hub/smartbay-species-detection/main/species_det_smaller.png'/>
+
 # doi: http://add-some-DOI-url.com
 dates:
-  created: "2025-05-14"
-  updated: "2025-05-14"
+  created: '2025-05-14'
+  updated: '2025-05-14'
 links:
   ai4_template: ai4-template-child/2.1.1
   source_code: https://github.com/ai4os-hub/smartbay-marine-types
@@ -30,11 +28,11 @@ links:
   # citation: http://add-some-DOI-url.com
   # base_model: http://add-some-link-to-another-model.com
 tags:        # required property, add user-defined tags that you consider relevant
-   - deep learning
-   - vo.imagine-ai.eu
-   - fish detection
+  - deep learning
+  - vo.imagine-ai.eu
+  - fish detection
 tasks:       # required property, uncomment together with relevant items
-   - Computer Vision
+  - Computer Vision
   # - Natural Language Processing
   # - Time Series
   # - Recommender Systems
@@ -49,15 +47,15 @@ tasks:       # required property, uncomment together with relevant items
   # - Reinforcement Learning
   # - Transfer Learning
   # - Uncertainty Estimation
-   - Other
+  - Other
 categories:  # required property, uncomment together with relevant items
   # - AI4 trainable
   # - AI4 pre trained
-   - AI4 inference
+  - AI4 inference
   # - AI4 tools
 libraries:   # required property, uncomment together with relevant items
   # - TensorFlow
-   - PyTorch
+  - PyTorch
   # - Keras
   # - Scikit-learn
   # - XGBoost
@@ -65,12 +63,11 @@ libraries:   # required property, uncomment together with relevant items
   # - CatBoost
   # - Other
 data-type:   # optional, uncomment together with relevant items
-   - Image
+  - Image
   # - Text
   # - Time Series
   # - Tabular
   # - Graph
   # - Audio
-   - Video
+  - Video
   # - Other
-  
