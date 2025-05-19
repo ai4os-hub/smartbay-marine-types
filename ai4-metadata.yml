@@ -18,8 +18,8 @@ description: |-
   <img class='fit', src='https://raw.githubusercontent.com/ai4os-hub/smartbay-species-detection/main/species_det_smaller.png'/>
 # doi: http://add-some-DOI-url.com
 dates:
-  created: 2025-05-14
-  updated: 2025-05-14
+  created: "2025-05-14"
+  updated: "2025-05-14"
 links:
   ai4_template: ai4-template-child/2.1.1
   source_code: https://github.com/ai4os-hub/smartbay-marine-types
